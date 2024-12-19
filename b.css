@@ -1,0 +1,97 @@
+/* General styles */
+body {
+    font-family: sans-serif;
+    background-color: #111;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1, h2, h3 {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    line-height: 1.5;
+  }
+  
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #111;
+    padding: 20px;
+    text-align: right;
+  }
+  
+  nav {
+    display: inline-block;
+  }
+  
+  nav a {
+    margin-left: 20px;
+  }
+  
+  /* Hero section styles */
+  .hero {
+    background-color: #111;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .hero-title {
+    font-size: 3em;
+  }
+  
+  /* Project section styles */
+  .projects {
+    padding: 50px;
+  }
+  
+  .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .project {
+    background-color: #222;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* About section styles */
+  .about {
+    background-color: #111;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  /* What I offer section styles */
+  .offer {
+    padding: 50px;
+  }
+  
+  .offer-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .offer-item {
+    background-color: #222;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Impact metrics section styles */
+  .metrics {
+    background-color: #

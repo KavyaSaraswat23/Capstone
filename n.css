@@ -1,0 +1,128 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #000;
+    color: #fff;
+    line-height: 1.6;
+  }
+  
+  /* Header */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #000;
+  }
+  .header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+  }
+  .header .nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+  }
+  .header .nav a:hover {
+    color: #00ffab;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background: url('hero-image.jpg') center/cover no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .hero h1 {
+    font-size: 3rem;
+    text-align: center;
+  }
+  
+  /* Portfolio Section */
+  .portfolio .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 40px;
+  }
+  .portfolio .grid-item img {
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s;
+  }
+  .portfolio .grid-item img:hover {
+    transform: scale(1.05);
+  }
+  
+  /* About Section */
+  .about {
+    padding: 40px;
+    text-align: center;
+  }
+  .about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  .about p {
+    margin-bottom: 30px;
+  }
+  .about .services {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  .about .service {
+    background: #111;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  /* Metrics Section */
+  .metrics {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    background: #111;
+  }
+  .metrics .metric h3 {
+    font-size: 2rem;
+    color: #00ffab;
+  }
+  .metrics .metric p {
+    color: #fff;
+  }
+  
+  /* Trusted By Section */
+  .trusted-by {
+    text-align: center;
+    padding: 40px;
+  }
+  .trusted-by .logos img {
+    max-width: 100px;
+    margin: 0 10px;
+  }
+  
+  /* Footer */
+  .footer {
+    background: #111;
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+  }
+  .footer a {
+    color: #00ffab;
+    text-decoration: none;
+  }
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  
