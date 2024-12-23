@@ -15,6 +15,10 @@ p, h1, head, h3, h4, div, li{
     margin-left: 25px;
 
 }
+#nav1 ul:hover{
+    transform: scale(1.02);
+    transition-duration: 0.1s;
+}
 
 #nav1 ul{
     list-style-type: none;
@@ -79,6 +83,11 @@ p, h1, head, h3, h4, div, li{
     width: 1444px;
     margin-left: 25px;
     background-color: #020D02;
+}
+.services section:hover{
+    transform: scale(1.1);
+    transition-duration: 0.2s;
+    
 }
 .services img{
     border-radius: 8px;
@@ -148,6 +157,7 @@ p, h1, head, h3, h4, div, li{
 }
 .over-flow img:hover{
     transform: scale(1.2);
+    transition-duration: 0.2s;
     margin-top: 20px;
 }
 .over-flow img{
@@ -259,6 +269,18 @@ hr{
 .picture3 img{
     border-radius: 8px;
 }
+.picture1 img:hover{
+    transform: scale(1.1);
+    transition-duration: 0.2s;
+}
+.picture2 img:hover{
+    transform: scale(1.1);
+    transition-duration: 0.2s;
+}
+.picture3 img:hover{
+    transform: scale(1.1);
+    transition-duration: 0.2s;
+}
 .parters {
     background-color: #020D02;
     margin-left: 25px;
@@ -319,9 +341,42 @@ footer #contect-details{
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
 }
-@media (max-width: 480px) {
+@media (max-width: 397px) {
+    .welcome{
+        width: 100%;
+        height: auto;
+        
+        
+    }
+    .welcome h1{
+        font-size: 50px;
+        text-align: center;
+        margin-left: 220px;
+        
+    }
+    .welcome img{
+        width: 100%;
+        height: auto;
+    }
     .services{
-        grid-template-columns: 1fr;
+        /* width: 100%; */
+        /* height: auto; */
+        grid-template-columns: 1fr 1fr;
+        padding: 0;
+        margin-left: 180px;
+
+    }
+    .services section{
+        width: auto;
+        height: auto;
+    }
+    .services img{
+        width: 50%;
+        height: 200px;
+    }
+    #logos img{
+        width: 100%;
+        height: auto;
     }
 }
     
